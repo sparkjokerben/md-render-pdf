@@ -2,6 +2,22 @@
   "name": "md-render-pdf",
   "version": "0.1.0",
   "description": "Render Markdown with KaTeX math to PDF, HTML, or a long PNG using system Chrome.",
+  "keywords": [
+    "markdown",
+    "pdf",
+    "katex",
+    "math",
+    "chrome",
+    "png"
+  ],
+  "homepage": "https://github.com/sparkjokerben/md-render-pdf#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparkjokerben/md-render-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sparkjokerben/md-render-pdf/issues"
+  },
   "bin": {
     "md-render-pdf": "bin/md-render-pdf.js"
   },
@@ -12,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "katex": "^0.16.22",
-    "marked": "^16.4.1",
+    "marked": "^12.0.2",
     "playwright-core": "^1.61.1"
   },
   "engines": {

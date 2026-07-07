@@ -5,10 +5,16 @@ Tiny CLI for rendering Markdown with KaTeX math to PDF, HTML, or a long PNG.
 ## Install
 
 ```bash
-npm install -g ./md-render-pdf-0.1.0.tgz
+npm install -g md-render-pdf
 ```
 
-Or install from this folder while developing:
+Or install from a GitHub release tarball:
+
+```bash
+npm install -g https://github.com/sparkjokerben/md-render-pdf/releases/download/v0.1.0/md-render-pdf-0.1.0.tgz
+```
+
+Install from this folder while developing:
 
 ```bash
 npm install
@@ -23,6 +29,12 @@ md-render-pdf input.md --png output.png
 ```
 
 By default it writes a PDF next to the input file.
+
+You can also use it without global install:
+
+```bash
+npx md-render-pdf input.md -o output.pdf
+```
 
 ## Chrome
 
@@ -58,4 +70,3 @@ Supported math delimiters:
 
 - Display: `$$ ... $$`
 - Inline: `\\( ... \\)`
-
