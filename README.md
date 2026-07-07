@@ -8,6 +8,12 @@ Tiny CLI for rendering Markdown with KaTeX math to PDF, HTML, or a long PNG.
 npm install -g md-render-pdf
 ```
 
+Or with Homebrew:
+
+```bash
+brew install sparkjokerben/tap/md-render-pdf
+```
+
 Or install from a GitHub release tarball:
 
 ```bash
